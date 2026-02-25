@@ -15,7 +15,6 @@ Reference:
 Author: [Your Name]
 Date: [Current Date]
 """
-
 import tensorflow as tf
 from tensorflow.keras.layers import (
     Input, Conv2D, DepthwiseConv2D, BatchNormalization, ReLU, 
@@ -28,7 +27,6 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-
 
 class LungConVTModel:
     """
